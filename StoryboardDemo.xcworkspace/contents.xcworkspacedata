@@ -2,6 +2,85 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:StoryboardDemoWithObjC copy"
+      name = "StoryboardDemoWithObjC copy">
+      <Group
+         location = "group:StoryboardDemoWithObjC"
+         name = "StoryboardDemoWithObjC">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:StoryboardDemoWithObjCUITests"
+         name = "StoryboardDemoWithObjCUITests">
+         <FileRef
+            location = "group:StoryboardDemoWithObjCUITests.m">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:StoryboardDemoWithObjC.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:StoryboardDemoWithObjCTests"
+         name = "StoryboardDemoWithObjCTests">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:StoryboardDemoWithObjCTests.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
       location = "group:StoryboardDemoWithSwift"
       name = "StoryboardDemoWithSwift">
       <Group
