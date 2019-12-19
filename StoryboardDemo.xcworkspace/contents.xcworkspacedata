@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:StoryboardDemoWithSwift"
+      name = "StoryboardDemoWithSwift">
+      <Group
+         location = "group:StoryboardDemoWithSwiftTests"
+         name = "StoryboardDemoWithSwiftTests">
+         <FileRef
+            location = "group:StoryboardDemoWithSwiftTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:StoryboardDemoWithSwiftUITests"
+         name = "StoryboardDemoWithSwiftUITests">
+         <FileRef
+            location = "group:StoryboardDemoWithSwiftUITests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:StoryboardDemoWithSwift.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:StoryboardDemoWithSwift"
+         name = "StoryboardDemoWithSwift">
+         <Group
+            location = "group:StoryBoards"
+            name = "StoryBoards">
+            <FileRef
+               location = "group:Bookmarks~.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Download~.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Bookmarks.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:History.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Contracts.storyboard">
+            </FileRef>
+            <Group
+               location = "group:StoryboardDemoWithSwift"
+               name = "StoryboardDemoWithSwift">
+               <Group
+                  location = "group:Base.lproj"
+                  name = "Base.lproj">
+                  <FileRef
+                     location = "group:Download.storyboard">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
