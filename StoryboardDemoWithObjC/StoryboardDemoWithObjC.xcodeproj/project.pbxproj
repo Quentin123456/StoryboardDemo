@@ -16,6 +16,10 @@
 		A11F8C2923AC68A400E590BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11F8C2823AC68A400E590BB /* main.m */; };
 		A11F8C3323AC68A400E590BB /* StoryboardDemoWithObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11F8C3223AC68A400E590BB /* StoryboardDemoWithObjCTests.m */; };
 		A11F8C3E23AC68A400E590BB /* StoryboardDemoWithObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11F8C3D23AC68A400E590BB /* StoryboardDemoWithObjCUITests.m */; };
+		A11F8C9B23AC9B8700E590BB /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11F8C9A23AC9B8700E590BB /* Search.storyboard */; };
+		A11F8C9D23AC9B9200E590BB /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11F8C9C23AC9B9200E590BB /* More.storyboard */; };
+		A11F8CA123AC9BDA00E590BB /* Bookmarks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11F8CA023AC9BD900E590BB /* Bookmarks.storyboard */; };
+		A11F8CA323AC9BE800E590BB /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11F8CA223AC9BE800E590BB /* History.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		A11F8C3923AC68A400E590BB /* StoryboardDemoWithObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardDemoWithObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11F8C3D23AC68A400E590BB /* StoryboardDemoWithObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardDemoWithObjCUITests.m; sourceTree = "<group>"; };
 		A11F8C3F23AC68A400E590BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11F8C9A23AC9B8700E590BB /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		A11F8C9C23AC9B9200E590BB /* More.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		A11F8CA023AC9BD900E590BB /* Bookmarks.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bookmarks.storyboard; sourceTree = "<group>"; };
+		A11F8CA223AC9BE800E590BB /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,10 @@
 				A11F8C1C23AC68A200E590BB /* ViewController.h */,
 				A11F8C1D23AC68A200E590BB /* ViewController.m */,
 				A11F8C1F23AC68A200E590BB /* Main.storyboard */,
+				A11F8CA023AC9BD900E590BB /* Bookmarks.storyboard */,
+				A11F8CA223AC9BE800E590BB /* History.storyboard */,
+				A11F8C9C23AC9B9200E590BB /* More.storyboard */,
+				A11F8C9A23AC9B8700E590BB /* Search.storyboard */,
 				A11F8C2223AC68A400E590BB /* Assets.xcassets */,
 				A11F8C2423AC68A400E590BB /* LaunchScreen.storyboard */,
 				A11F8C2723AC68A400E590BB /* Info.plist */,
@@ -241,7 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11F8C2623AC68A400E590BB /* LaunchScreen.storyboard in Resources */,
+				A11F8C9D23AC9B9200E590BB /* More.storyboard in Resources */,
+				A11F8CA323AC9BE800E590BB /* History.storyboard in Resources */,
 				A11F8C2323AC68A400E590BB /* Assets.xcassets in Resources */,
+				A11F8C9B23AC9B8700E590BB /* Search.storyboard in Resources */,
+				A11F8CA123AC9BDA00E590BB /* Bookmarks.storyboard in Resources */,
 				A11F8C2123AC68A200E590BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
